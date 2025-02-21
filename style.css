@@ -1,9 +1,39 @@
 .title {
     color:white;
     background-color:blue;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
     background-color: grey;
+}
+
+.username {
+    position: absolute;
+    top: 33px;
+    right: 500px;
+}
+
+.username label {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.password {
+    position: absolute;
+    top: 33px;
+    right: 225px;
+}
+
+.password label {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.login {
+    position: absolute;
+    top: 33px;
+    right: 75px;
 }
