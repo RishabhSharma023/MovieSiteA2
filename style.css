@@ -1,12 +1,12 @@
 .title {
-    color:white;
-    background-color:blue;
+    color: white;
+    background-color: blue;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
-    background-color: grey;
+body {
+    background-color: #658590;
 }
 
 .username {
@@ -16,7 +16,7 @@ body{
 }
 
 .username label {
-    color:white;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -27,13 +27,57 @@ body{
 }
 
 .password label {
-    color:white;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .login {
     position: absolute;
     top: 33px;
     right: 75px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60vh;
+}
+
+.hero img {
+    width: 90%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.featured h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.featured .posters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.featured .poster {
+    width: 30%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
