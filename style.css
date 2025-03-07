@@ -25,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: 0px;
 }
 
 .logoImg {
@@ -51,6 +52,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1em;
+    margin-right: 12.5px;
 }
 
 /*.logoImg {
@@ -73,7 +75,7 @@ body {
 }
 
 .button {
-    padding: 0.5em 1em;
+    padding: 0.55em 1em;
     border: none;
     border-radius: 0.3em;
     background-color: #4c7dd4;
