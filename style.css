@@ -40,13 +40,6 @@ body {
     color: #4c7dd4;
 }
 
-/*.logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #4c7dd4;
-    
-}*/
-
 
 .login-container {
     display: flex;
@@ -55,12 +48,6 @@ body {
     margin-right: 12.5px;
 }
 
-/*.logoImg {
-    width: 70px;
-    height: 40px;
-    border-radius: 50%;
-    margin-left:500px;
-}*/
 
 .username, .password, .login {
     display: flex;
@@ -127,6 +114,11 @@ body {
     width: 30%;
     height: auto;
     border-radius: 5px;
+}
+
+.featured .poster:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s;
 }
 
 .footer{
