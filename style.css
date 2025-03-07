@@ -70,6 +70,11 @@ body {
     cursor: pointer;
 }
 
+.button:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -88,6 +93,11 @@ body {
     flex-shrink:1;
     display: block;
     margin-left: 0px;
+}
+
+.hero img:hover {
+    transform: scale(1.025);
+    transition: transform 0.5s;
 }
 
 .featured {
